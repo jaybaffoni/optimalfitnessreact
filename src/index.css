@@ -11,3 +11,122 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, h2, h3, h4, h5, h6, p, span, a, button, li {
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.screen {
+  min-height: calc(100vh - 120px);
+}
+
+img {
+  border-radius: 4px;
+}
+
+.blue-link {
+  color: #000034;
+}
+
+.blue-link:hover {
+  text-decoration: none;
+}
+
+.bufferBottom {
+  margin-bottom: 8px;
+}
+
+.bufferTop {
+  margin-top: 8px;
+}
+
+.motto-text {
+  color: white;
+  font-size: 44px;
+  max-width: 500px;
+  line-height: 140%;
+  text-align: center;
+  font-weight: 200;
+}
+
+.title-text {
+  font-size: 44px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.subtitle-text {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: justify;
+}
+
+.logo-img {
+  width: 40%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.header-icon {
+  color: #ffffff80;
+}
+
+.header-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  border-radius: 16px;
+  -webkit-box-shadow: 8px 8px 24px 3px rgba(0,0,0,0.55);
+  -moz-box-shadow: 8px 8px 24px 3px rgba(0,0,0,0.55);
+  box-shadow: 8px 8px 24px 3px rgba(0,0,0,0.55);
+  overflow: hidden;
+  margin-bottom: 64px;
+}
+
+@keyframes wipe-enter {
+  0% {transform: scale(0, 1);}
+  50% {transform: scale(1, 1);}
+}
+
+.expand {
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .expand-animation {
+    animation: wipe-enter 1s 1;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .logo-img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .motto-text {
+    color: white;
+    font-size: 36px;
+    max-width: 500px;
+    line-height: 140%;
+    text-align: center;
+    font-weight: 200;
+  }
+
+  .title-text {
+    font-size: 36px;
+    line-height: 140%;
+    font-weight: 400;
+  }
+
+  .subtitle-text {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+  }
+
+}
+
