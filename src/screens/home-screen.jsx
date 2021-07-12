@@ -82,7 +82,7 @@ export function HomeScreen(props) {
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>About Us</h1>
                         <h3 className="subtitle-text">Optimal Fitness Boston is a unique and privately owned fitness studio offering personal and small group training, strength and conditioning for athletes, corporate wellness programs and group classes. And right now we’re offering all of our usual programs and expertise for our clients on Zoom!</h3>
-                        <Button variant="dark">Learn More</Button>
+                        <Button variant="dark" onClick={() => navigate('/about')}>Learn More</Button>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
                         <Observer onChange={handleIntersection}>
@@ -100,36 +100,13 @@ export function HomeScreen(props) {
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>Expert Staff</h1>
                         <h3 className="subtitle-text">The staff at Optimal Fitness consists of a former Celtic's Head Strength and Conditioning Coach, Exercise Specialists, Personal Trainers, and Group Instructors with degrees in Sports Medicine, Sports Management, Kinesiology, Exercise Science, and Health Promotion.</h3>
-                        <Button variant="dark">Meet the Team</Button>
+                        <Button variant="dark" onClick={() => navigate('/staff')}>Meet the Team</Button>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
                         <Observer onChange={handleIntersection}>
                             <img className="expand expand-animation" src={staffPicture} style={{width: '100%', height: '100%', maxHeight: '100%', objectFit: 'cover'}}/>
                         </Observer>
                     </div>
-                    {/*<div className="col-md-6" style={{display: 'grid', gridTemplateRows: '1fr 1fr 1fr'}}>*/}
-                    {/*    <div style={{display: 'grid', gridTemplateColumns: '1fr 2fr 8px 2fr 1fr', marginTop: 8}}>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/bryan.jpg" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/Laurie.jpg" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*    </div>*/}
-                    {/*    <div style={{display: 'grid', gridTemplateColumns: '1fr 8px 1fr 8px 1fr', marginTop: 8}}>*/}
-                    {/*        <img src="/images/headshots/amanda.jpg" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/eryenne.JPG" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/jack.jpeg" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*    </div>*/}
-                    {/*    <div style={{display: 'grid', gridTemplateColumns: '1fr 2fr 8px 2fr 1fr', marginTop: 8}}>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/corinne.JPG"style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*        <img src="/images/headshots/zach.JPG" style={{width: '100%', height: 150, position: 'center', objectFit: 'cover'}}/>*/}
-                    {/*        <div></div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </div>
             </ContainerPanel>
             <FullPanel image={trainingPicture}>
@@ -137,13 +114,13 @@ export function HomeScreen(props) {
                 <Observer onChange={handleIntersection}>
                     <div className="row">
                         <div className="col-md-4" style={{marginTop: 16}}>
-                            <TrainingCard image={personalTraining} title={'Personal Training'} text={'Customized individualized program based off of initial evaluation in order to help your body move more efficiently, to prevent injuries, and to establish a healthier lifestyle'}/>
+                            <TrainingCard route="/training#personaltraining" image={personalTraining} title={'Personal Training'} text={'Customized individualized program based off of initial evaluation in order to help your body move more efficiently, to prevent injuries, and to establish a healthier lifestyle'}/>
                         </div>
                         <div className="col-md-4" style={{marginTop: 16}}>
-                            <TrainingCard image={athleteClasses} title={'Athlete Strength & Conditioning'} text={'Athlete groups (ages 11-22) are brought through a specific warm up and customized programming, corrective exercises and sports performance exercises based on their goals, sports and evaluations'}/>
+                            <TrainingCard route="/training#athletes" image={athleteClasses} title={'Athlete Strength & Conditioning'} text={'Athlete groups (ages 11-22) are brought through a specific warm up and customized programming, corrective exercises and sports performance exercises based on their goals, sports and evaluations'}/>
                         </div>
                         <div className="col-md-4" style={{marginTop: 16}}>
-                            <TrainingCard image={adultClasses} title={'Adult Classes'} text={'Group-based Core and strength-based programs designed to increase your heart rate and help you get the most out of every workout'}/>
+                            <TrainingCard route="/training#adultclasses" image={adultClasses} title={'Adult Classes'} text={'Group-based Core and strength-based programs designed to increase your heart rate and help you get the most out of every workout'}/>
                         </div>
                     </div>
                 </Observer>
