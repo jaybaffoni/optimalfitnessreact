@@ -29,7 +29,7 @@ export function HeaderBar(props) {
     return (
         <Navbar expand="lg" variant="dark" sticky="top" style={{background: config.primaryColor, borderBottom: 'solid 1px white'}} expanded={expanded} onToggle={setExpanded}>
             <div className="container">
-                <img src={logo} style={styles.logo}/>
+                <a href="/home"><img src={logo} style={styles.logo}/></a>
                 <Navbar.Brand href="/home" style={{marginTop: 2}}>Optimal Fitness</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
