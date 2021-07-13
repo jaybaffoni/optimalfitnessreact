@@ -81,7 +81,7 @@ export function HomeScreen(props) {
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>About Us</h1>
-                        <h3 className="subtitle-text">Optimal Fitness Boston is a unique and privately owned fitness studio offering personal and small group training, strength and conditioning for athletes, corporate wellness programs and group classes. And right now we’re offering all of our usual programs and expertise for our clients on Zoom!</h3>
+                        <h3 className="subtitle-text">Optimal Fitness Boston is a unique and privately owned fitness studio offering personal and small group training, strength and conditioning for athletes, corporate wellness programs and group classes. We pride ourselves in helping each individual athlete or client  feel better, move more efficiently, live a healthier lifestyle or increase performance in their sport. The Optimal Fitness staff are certified through National accreditation programs both as strength and conditioning coaches as well as personal trainers.</h3>
                         <Button variant="dark" onClick={() => navigate('/about')}>Learn More</Button>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
