@@ -11,15 +11,25 @@ export function StaffScreen(props) {
                 <Image roundedCircle src={'/images/headshots/bryan.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Bryan Doo</h1>
-                    <h3>Owner and Founder of Optimal Fitness</h3>
-                    <h5>BS, MS- ACSM/NASM- CPT, NSCA CSCS</h5>
+                    <h3>Owner / Strength Coach</h3>
+                    <h5>NSCA CSCS; ACSM/NASM- CPT
+                        <br/>M.S. in Exercise Physiology and Health Promotion, California University of Pennsylvania
+                        <br/>B.S. in Sports and Exercise Science, Messiah College
+                    </h5>
                 </div>
                 <div style={{textAlign: 'justify'}}>
-                    <p>Bryan Doo is the founder and president of Optimal Fitness Boston. Doo founded Optimal Fitness in 1996 where he was the sole trainer and has since grown it into a business with in-home personal training, a brick and mortar location, virtual training, corporate wellness and strength and conditioning for athletes.</p>
-                    <p>While running OFit, Doo was hired by the Boston Celtics as Head Strength and Conditioning Coach in 2003 and remained an integral part of the team for 14 years. He worked with the athletes year round to prepare them for their upcoming season, rehab injuries, condition in-season and more. While on staff, the Celtics won the 2007-2008 NBA Championship and was voted by his peers as the 2015-2016 NBA Strength Coach of the Year.</p>
-                    <p>While still with the Celtics, Doo and Optimal Fitness joined forces with various businesses in the greater Boston area to manage their corporate wellness facilities and create programming for the various companies employees. The first site that Doo was tasked to manage was Bain Capital, which is located in downtown Boston, and Optimal Fitness has maintained the role to this day.</p>
-                    <p>Prior to the Celtics, Doo served as the Director of Wellness at Harvard Business School (1998-2001), where he implemented programs and activities for staff, students and executive education cohorts. He also coached women’s lacrosse and was a strength and conditioning coach in the athletic department at Harvard University from 1999-2001. More recently, he joined forces with Harvard again now serving as an assistant strength coach and program mentor for the Harvard Men’s Basketball Team.</p>
-                    <p>Doo has also consulted and trained various NBA, NHL, EPL, Olympic, WTA, elite athletes and more. He is a frequent speaker regarding sports and athletic development, injury prevention and team training at local and national conferences. He also served as a guest lecturer at Brown University as part of the Exercise Physiology/Biomechanics course.</p>
+                    <p>Bryan Doo is the founder and president of Optimal Fitness Boston. He founded Optimal Fitness in 1996, offering in-home personal training, corporate wellness, speed and agility camps and strength training for athletes (professional, collegiate, international and high school).
+
+                        <br/><br/>While running Optimal Fitness, Doo was hired by the Boston Celtics as the Head Strength and Conditioning Coach in 2003 and remained an integral part of the team for the next 14 years. He worked with the players year-round to prepare them for the rigors of the NBA season, rehab injuries, and track in-season conditioning and strength levels of all the players. While Doo was the head strength coach with the Celtics they won the 2007-2008 NBA Championship and during the 2015-2016 season Doo was voted, by his peers, the NBA Strength Coach of the Year.
+
+                        <br/><br/>Throughout the years, Optimal Fitness has acquired contracts to manage various corporate wellness facilities in the greater Boston area. The OFIT staff was tasked with creating programming for each of the companies' employees and create individualized systems for each site, ranging from team building events, to a strong referral network of professionals in the health world (nutritionists, physical therapists, mental health coaches, etc.), and more.
+
+                        <br/><br/>Prior to the Celtics, Doo served as the Director of Wellness at Harvard Business School (1998-2001), where he implemented programs and activities for staff, students and executive education cohorts. During that time, he was on the coaching staff for the women’s lacrosse team and served as a  strength and conditioning coach at Harvard University from 1999-2001. He was fortunate enough to return to Harvard as a consultant and mentor for the men’s basketball team in the area of strength and conditioning from 2017-2020.
+
+                        <br/><br/>Doo has also consulted and trained various NBA, NHL, EPL, Serie A, Olympic, WTA, and elite athletes and more. He is a frequent speaker regarding sports and athletic development, injury prevention and team training at local and national conferences. He also served as a guest lecturer at Brown University as part of the Exercise Physiology/Biomechanics course.
+
+                        <br/><br/>When not training, Doo can be found spending time with his wife Brianna ,6 children and all of their pets. Doo’s children are Mikayla (12), Kailani (10), Alana (8), Kalea (6), Maddox (5) and Atticus (3).
+                    </p>
                 </div>
             </div>
 
@@ -28,28 +38,22 @@ export function StaffScreen(props) {
                 <Image roundedCircle src={'/images/headshots/Laurie.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Laurie Lamoureux Borrelli</h1>
-                    <h3>Director of Optimal Fitness & Strength & Conditioning</h3>
-                    <h5>NSCA-CSCS, NASM-CPT, B.S. in Sports Medicine, Merrimack College</h5>
+                    <h3>Director / Strength Coach</h3>
+                    <h5>NSCA-CSCS; NASM-CPT
+                        <br/>B.S. in Sports Medicine, Merrimack College
+                    </h5>
                 </div>
                 <div style={{textAlign: 'justify'}}>
-                    <p>Laurie joined the Optimal Fitness Boston team in 2007 and is currently the Director of Health and Human Performance. Laurie earned a B.S. in Sports Medicine with a focus in exercise physiology from Merrimack College. At Merrimack, Laurie excelled on the women's soccer team as the team captain and earned All-American honors and All Scholar- All American. From there she earned a spot on the Women's USA Futsal team where she played in multiple tournaments.</p>
-                    <p>Laurie brings her positive energy as well as her incredible background in sports and injury prevention to help clients and athletes of all levels excel. Laurie is known for her ability to customize programs to the individuals needs and to use science to help individuals excel and reach their goals.</p>
-                    <p>Laurie has coached soccer since she was in high school. Laurie’s passion is helping others and she continues to do so every day from pro athletes, to weekend warriors, grandparents, middle schoolers, and everyone in between. She focuses on their needs and designs her training programs accordingly, both as a personal trainer and a soccer coach, which she has been doing since high school.</p>
-                </div>
-            </div>
+                    <p>Laurie joined the Optimal Fitness Boston team in 2007 and is currently the Director of Health and Human Performance. She is Certified both from the National Strength and Conditioning Association (NSCA) as well as National Academy of Sports Medicine (NASM). In her current role, Laurie supervises not only our trainers but all of our training sites, programs and camps as well.
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/zach.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-                    <h1>Zach Wiernicki</h1>
-                    <h3>Exercise Specialist</h3>
-                    <h5>NASM-CPT, CES and PES; B.S. in Sports and Exercise Science, Messiah College</h5>
-                </div>
-                <div style={{textAlign: 'justify'}}>
-                    <p>Zach joined the Optimal Fitness team in 2006 and brings more than a decade of training experience to the team. Before joining Optimal Fitness, he held an internship with the strength and conditioning coach for the Boston Celtics.</p>
-                    <p>Zach attended Messiah College and earned his B.S. in Sports and Exercise Science with a health and fitness concentration and played on the men’s basketball team. He was first team all-league as a power forward and is part of the 1,000 point club. He specializes in basketball skill development and brings great enthusiasm into his training sessions with both athletes and general populations alike.</p>
-                    <p>At Optimal Fitness Boston, Zach trains with corporate partners; at clients homes: with professional, collegiate and high school athletes, and via Zoom.</p>
+                        <br/><br/>Laurie earned a B.S. in Sports Medicine with a focus in exercise physiology from Merrimack College. At Merrimack, Laurie excelled on the women's soccer team as the team captain and earned All-American honors and  Scholar- All American. From there she earned a spot on the Women's USA Futsal team where she played in multiple tournaments post college.
+
+                        <br/><br/>Laurie brings her positive energy as well as her incredible background in sports and injury prevention to help clients and athletes of all levels excel. Laurie is known for her ability to customize programs to the individuals needs and use science to help individuals excel and reach their goals.
+
+                        <br/><br/>Laurie’s passion is helping others and she continues to do so every day from pro athletes, to weekend warriors, grandparents, middle schoolers, and everyone in between. She focuses on their needs and designs her training programs accordingly, both as a personal trainer and a soccer coach, which she has been doing since high school.
+
+                        <br/><br/>In her free time, Laurie loves the outdoors, playing soccer, fantasy books, and quality time with family and friends. She is constantly looking to better herself and believes that learning is always an open door.
+                    </p>
                 </div>
             </div>
 
@@ -58,46 +62,41 @@ export function StaffScreen(props) {
                 <Image roundedCircle src={'/images/headshots/amanda.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Amanda Carvalho</h1>
-                    <h3>Site Coordinator/ Personal Trainer</h3>
-                    <h5>NASM-CPT and PES;B.S. in Allied Health Science, University of Connecticut; M.S. in Exercise Science and Health Promotion, California University of Pennsylvania</h5>
+                    <h3>Personal Trainer</h3>
+                    <h5>NASM-CPT and PES;
+                        <br/>M.S. in Exercise Science and Health Promotion, California University of Pennsylvania
+                        <br/>B.S. in Allied Health Science, University of Connecticut
+                    </h5>
                 </div>
                 <div style={{textAlign: 'justify'}}>
-                    <p>Amanda joins Optimal Fitness with an abundance of knowledge from her degrees in Allied Health Science from the University of Connecticut and in Exercise Science and Health Promotion with a concentration in Performance Enhancement and injury prevention from California University of Pennsylvania.</p>
-                    <p>Kicking off her professional career, Amanda spent her first four years personal training. In her most recent position, she began as a personal trainer and worked her way up to the general manager of a private training facility.  She also spent 4 years working in an orthopedic physical therapy clinic where she helped patients of all ages and levels of rehabilitation. In addition, she oversaw her own patients in an aftercare program designed to get athletes and active adults back to their pre-injury levels. </p>
-                    <p>Working with her patients, as well as her own experience with injuries, propelled Amanda to go back to school and earn her Master's degree, and concurrently her certifications as a personal trainer and Performance Enhancement Specialist through NASM.</p>
-                    <p>At Optimal Fitness Boston, Amanda trains virtually via Zoom, at the Beach House, and at Lexington.</p>
-                    <p>In addition to personal training, Amanda spent 8 years coaching high school and youth premier club soccer after having been a member of the Division 1 UConn women’s soccer team and playing throughout her entire life.</p>
+                    <p>Amanda joined Optimal Fitness in 2020 with an abundance of knowledge through her degrees in Allied Health Science from the University of Connecticut and in Exercise Science and Health Promotion with a concentration in Performance Enhancement and Injury Prevention from California University of Pennsylvania.
+
+                        <br/><br/>Kicking off her professional career, Amanda spent 4 years working in an orthopedic physical therapy clinic where she helped patients of all ages and levels of rehabilitation. In addition, she oversaw her own patients in an aftercare program designed to get athletes and active adults back to their pre-injury levels. The work she performed with her patients, as well as her own experience with injuries, encouraged Amanda to go back to school and earn her Master's degree, and concurrently her certifications as a personal trainer and Performance Enhancement Specialist through NASM.
+
+                        <br/><br/>Transitioning into personal training, Amanda started as a trainer and small group instructor at a private training facility and worked her way up to the general manager position.
+
+                        <br/><br/>In addition to personal training, Amanda spent 8 years coaching high school and youth premier club soccer after having been a member of the Division 1 UConn women’s soccer team and playing throughout her entire life.</p>
                 </div>
             </div>
 
             <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/jack.jpeg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+                <Image roundedCircle src={'/images/headshots/jack.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Jack Baldwin</h1>
                     <h3>Performance Coach</h3>
-                    <h5>NSCA-CSCS; M.S. in Kinesiology, Long Beach State University; B.S. in Applied Exercise Science, Springfield College</h5>
+                    <h5>M.S. in Kinesiology - Long Beach State University
+                        <br/>B.S. in Applied Exercise Science - Springfield College
+                    </h5>
                 </div>
                 <div style={{textAlign: 'justify'}}>
-                    <p>Jack joins the Optimal Fitness staff with five years’ experience as a strength and conditioning coach. He has worked with athletes from youth, high school, college and Olympic levels, including USA Beach Volleyball athletes. Jack is passionate about helping athletes gain a competitive advantage by learning the skills needed for their sport, both mentally and physically. His goal is to teach athletes to become better movers, gain strength and customize training programs to meet the needs of each athlete.</p>
-                    <p>Jack recently completed his Master of Science Degree at Long Beach State University in Kinesiology with a specialization in Sport Psychology. Prior to getting his Masters, he completed his Bachelor of Science Degree from Springfield College in Applied Exercise Science with concentration in Sport Performance. He is a Certified Strength and Conditioning Specialist (CSCS) through the National Strength and Conditioning Association (NSCA).</p>
-                    <p>Jack grew up in Western Massachusetts and was a 4-year collegiate baseball player at Springfield College. In his free time, he enjoys anything outdoors, reading non-fiction books, quality time with family and friends, and watching and playing multiple sports including basketball, golf, tennis, and baseball.</p>
-                    <p>At Optimal Fitness, Jack trains primarily at the Beach House and Lexington.</p>
-                </div>
-            </div>
+                    <p>Jack joined the Optimal Fitness team in 2021 and brought with him five years of experience as a strength and conditioning coach. He has worked with athletes from youth, high school, college and Olympic levels, including USA Beach Volleyball athletes.
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/eryenne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-                    <h1>Eryenne Brinn</h1>
-                    <h3>Group Instructor/ Personal Trainer</h3>
-                    <h5>NASM-CPT, B.S. in Sport Management, Ithaca College</h5>
-                </div>
-                <div style={{textAlign: 'justify'}}>
-                    <p>Eryenne is a former public relations and marketing pro turned personal trainer and group fitness coach. Having played sports her entire life including women’s lacrosse at Ithaca College, working in gyms throughout high school and college, and training herself with strength coaches along the way, she always had a love and keen interest for the field of fitness. After working in Corporate America for nearly a decade she decided to take her long-time passion for fitness and meld it with her desire to help others. Eryenne has been a full-time personal trainer since 2016, joined Optimal Fitness in 2018, and has helped countless people live happier and healthier lives while reaching their goals.</p>
-                    <p>Eryenne’s love for working with others has led her to pursue various training certifications, in addition to her National Academy of Sports Medicine - Certified Personal Trainer (NASM-CPT) certification, including kettlebells, pre/post natal, spinning and trigger point. And she plans to continue growing her knowledge base to better serve her clients and help others in the future.</p>
-                    <p>At Optimal Fitness Boston, Eryenne trains with corporate partners, at clients homes, at the Beach House, and virtually via Zoom.</p>
+                        <br/><br/>Jack is passionate about helping athletes gain a competitive advantage by learning the skills needed for their sport, both mentally and physically. His mission is to teach athletes to become better movers, gain strength and customize training programs to meet the needs of each athlete.
+
+                        <br/><br/>One of Jack’s main goals is to integrate mind and body, preparing both for competition. As part of his Masters degree program, Jack completed Sport Psychology classes which allows him to work with clients on mental skills by teaching imagery, visualization, attentional focus, confidence, self talk and more. He is also a Certified Strength and Conditioning Specialist (CSCS) through the National Strength and Conditioning Association (NSCA).
+
+                        <br/><br/>Jack grew up in Western Massachusetts and was a 4-year collegiate baseball player at Springfield College. In his free time, he enjoys anything outdoors, reading non-fiction books, quality time with family and friends, and watching and playing multiple sports including basketball, golf, tennis, and baseball.</p>
                 </div>
             </div>
 
@@ -106,13 +105,63 @@ export function StaffScreen(props) {
                 <Image roundedCircle src={'/images/headshots/corinne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Corinne Donovan</h1>
-                    <h3>Group Instructor/ Personal Trainer</h3>
-                    <h5>ISSA-CPT</h5>
+                    <h3>Group Instructor / Personal Trainer</h3>
+                    <h5>ISSA-CPT
+                        <br/>B.A. in Psychology, University of Massachusetts
+                    </h5>
                 </div>
                 <div style={{textAlign: 'justify'}}>
-                    <p>Corinne Donovan has been training and teaching group fitness classes for more than 15 years. As a trainer Corinne loves to push her clients to be their best physically, mentally and emotionally. She creates individualized programs for each of her clients that best suit their needs so they can see results quickly. She specializes in High Intensity Interval Training (HIIT) and wants her clients to walk away feeling energized and wanting more!</p>
-                    <p>Corinne is certified through the International Sport Science Association (ISSA) and she received her Master Trainer certification through NY Strength.</p>
-                    <p>Corinne has worked in various well known fitness centers in and around the Boston area. At Optimal Fitness Boston, Corinne trains at the Beach House, at clients' homes and virtually via Zoom.</p>
+                    <p>Corinne has been training and teaching group fitness classes for more than 15 years. As a trainer Corinne loves to push her clients to be their best physically, mentally and emotionally.  She creates individualized programs for each of her clients that best suit their needs so they can see results quickly. She specializes in High Intensity Interval Training (HIIT) and wants her clients to walk away feeling energized and wanting more!
+
+                        <br/><br/>Corinne graduated from The University of Massachusetts Amherst’s Honor Program, Cum Laude with a B.A. in Psychology. At UMass, she rowed Novice Crew and played intramural soccer. Prior to UMass, she attended Stonehill College her freshman year where she played on the women’s soccer team. While at Stonehill, she was the only freshman on the starting lineup and was named Rookie of the Year. During Corinne’s semester abroad in England she played on the women’s soccer team at The University of Hull.
+
+                        <br/><br/>Corinne is certified through the International Sport Science Association (ISSA) and she received her Master Trainer certification through NY Strength.
+
+                        <br/><br/>She currently lives in Natick with her husband, two boys and their cat Larry. In her spare time she is cheering on her boys who play hockey, lacrosse, baseball and flag football, pursuing her passion in photography and indulging in her love for interior design.</p>
+                </div>
+            </div>
+
+            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+                <Image roundedCircle src={'/images/headshots/zach.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+                    <h1>Zach Wiernicki</h1>
+                    <h3>Wellness Specialist</h3>
+                    <h5>NASM-CPT, CES and PES
+                        <br/>B.S. in Sports and Exercise Science, Messiah College
+                    </h5>
+                </div>
+                <div style={{textAlign: 'justify'}}>
+                    <p>Zach joined the Optimal Fitness in 2006 and brings more than 15 years of training experience to the team. Before joining Optimal Fitness, he interned with the strength and conditioning coach of the Boston Celtics.
+
+                        <br/><br/>As a trainer, Zach specializes in corrective exercise and performance based programming. He also focuses on basketball skill development with athletes and those trying to better their basketball game. In all of his training, whether athlete or general population, Zach brings tremendous enthusiasm, a positive attitude and an eagerness to better the lives of his clients.
+
+                        <br/><br/>Attending Messiah College he earned his B.S. in Sports and Exercise Science with a health and fitness concentration and played on the men’s basketball team. He was first team all-league as a power forward and is part of the 1,000-point club.
+
+                        <br/><br/>Zach lives in New Hampshire and enjoys being in the great outdoors with his wife and three kids. Hiking, fishing and biking are just a few things you will find him doing any chance he gets. He also is a gentleman’s farmer raising animals and growing his own food at his home.
+                    </p>
+                </div>
+            </div>
+
+            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+                <Image roundedCircle src={'/images/headshots/eryenne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+                    <h1>Eryenne Brinn</h1>
+                    <h3>Group Instructor / Personal Trainer</h3>
+                    <h5>NASM-CPT; EFTI Pre/Post Natal
+                        <br/>B.S. in Sport Management, Ithaca College
+                    </h5>
+                </div>
+                <div style={{textAlign: 'justify'}}>
+                    <p>Eryenne joined Optimal Fitness in 2018 and brings a diverse background to the team. She is a former public relations and marketing pro turned personal trainer and group fitness coach. Having played sports her entire life including women’s lacrosse at Ithaca College, working in gyms throughout high school and college, and working on her own sports performance with strength coaches along the way, she always had a love and keen interest for the field of fitness. And after working in Corporate America for nearly a decade she decided to take her long-time passion for fitness and meld it with her desire to help others as she transitioned to full-time personal training in 2016.
+
+                        <br/><br/>Eryenne works one-on-one with clients as well as in groups. In all scenarios she works to individualize programs to fit each client to help them be and feel their best. To Eryenne, the people she trains are there for a reason-they are there to better their lives in some shape or form, and she loves the mission of helping and guiding them to live happier and healthier lives while reaching their specified goals.
+
+                        <br/><br/>Eryenne’s love for working with others has led her to pursue various training certifications, in addition to her National Academy of Sports Medicine - Certified Personal Trainer (NASM-CPT) certification, including kettlebells, pre/post natal, spinning and trigger point. And she plans to continue growing her knowledge base to better serve her clients and help others in the future.
+
+                        <br/><br/>In her free time, Eryenne enjoys spending time with her friends and family, specifically her two young sons, doing just about anything outside (except when it’s too cold then she opts for a fire inside!), traveling to new places and seeing the world, listening endlessly to podcasts, sipping coffee and smoothies, the Philadelphia Eagles and exercising to feel her best.
+                    </p>
                 </div>
             </div>
 
