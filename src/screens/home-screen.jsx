@@ -66,7 +66,7 @@ export function HomeScreen(props) {
     return (
         <>
             <div style={styles.videoContainer}>
-                <video autoPlay muted loop style={styles.video}>
+                <video autoPlay muted loop playsInline style={styles.video}>
                     <source src={video} type="video/mp4" />
                 </video>
                 <div style={styles.frame}>
