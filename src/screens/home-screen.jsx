@@ -35,7 +35,7 @@ const styles = {
     frame: {
         position: 'absolute',
         top: 0, left: 0,
-        background: '#293d9b40',
+        background: '#00000040',
         height: '100vh',
         width: '100%',
         display: 'grid',
