@@ -6,7 +6,54 @@ import {config} from "../config";
 export function StaffScreen(props) {
     return (
         <div className="container" style={{marginTop: 24}}>
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+
+            <div style={{textAlign: 'center', display: 'inline-block'}}>
+                <a href="#bryan"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/bryan.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Bryan<br/>Doo</h5>
+                    </div>
+                </div></a>
+                <a href="#laurie"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/Laurie.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Laurie<br/>Lamoureux<br/>Borrelli</h5>
+                    </div>
+                </div></a>
+                <a href="#amanda"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/amanda.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Amanda<br/>Carvalho</h5>
+                    </div>
+                </div></a>
+                <a href="#jack"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/jack.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Jack<br/>Baldwin</h5>
+                    </div>
+                </div></a>
+                <a href="#corinne"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/corinne.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Corinne<br/>Donovan</h5>
+                    </div>
+                </div></a>
+                <a href="#zach"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/zach.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Zach<br/>Wiernicki</h5>
+                    </div>
+                </div></a>
+                <a href="#eryenne"><div style={{display: 'inline-block', maxWidth: 160}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/eryenne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Eryenne<br/>Brinn</h5>
+                    </div>
+                </div></a>
+            </div>
+
+
+            <div id="bryan" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/bryan.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -33,7 +80,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="laurie" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/Laurie.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -57,7 +104,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="amanda" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/amanda.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -79,7 +126,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="jack" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/jack.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -100,7 +147,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="corinne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/corinne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -121,7 +168,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="zach" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/zach.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
@@ -143,7 +190,7 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+            <div id="eryenne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/eryenne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>

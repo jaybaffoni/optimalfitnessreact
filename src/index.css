@@ -85,6 +85,11 @@ img {
   margin-bottom: 64px;
 }
 
+.profile-header {
+  width: 150px;
+  height: 150px;
+}
+
 @keyframes wipe-enter {
   0% {transform: scale(0, 1);}
   50% {transform: scale(1, 1);}
@@ -128,5 +133,12 @@ img {
     text-align: justify;
   }
 
+}
+
+@media only screen and (max-width: 400px) {
+  .profile-header {
+    width: 100px;
+    height: 100px;
+  }
 }
 

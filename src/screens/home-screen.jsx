@@ -22,11 +22,12 @@ const styles = {
         width: '100%',
         overflow: 'hidden',
         position: 'relative',
-        height: '100vh',
-        maxHeight: '100vh'
+        height: 'calc(100vh - 50px)',
+        maxHeight: 'calc(100vh - 50px)'
     },
     video: {
-        minHeight: '100vh',
+        minHeight: 'calc(100vh - 50px)',
+        height: 'calc(100vh - 50px)',
         position: 'absolute',
         left: '-500%', right: '-500%',
         margin: 'auto'
