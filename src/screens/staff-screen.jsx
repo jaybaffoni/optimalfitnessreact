@@ -20,6 +20,12 @@ export function StaffScreen(props) {
                         <h5>Laurie<br/>Lamoureux<br/>Borrelli</h5>
                     </div>
                 </div></a>
+				<a href="#zach"><div style={{display: 'inline-block', maxWidth: 160}}>
+					<div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+						<Image roundedCircle src={'/images/headshots/zach.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+						<h5>Zach<br/>Wiernicki</h5>
+					</div>
+				</div></a>
                 <a href="#amanda"><div style={{display: 'inline-block', maxWidth: 160}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/amanda.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
@@ -32,22 +38,16 @@ export function StaffScreen(props) {
                         <h5>Jack<br/>Baldwin</h5>
                     </div>
                 </div></a>
+				<a href="#eryenne"><div style={{display: 'inline-block', maxWidth: 160}}>
+					<div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+						<Image roundedCircle src={'/images/headshots/eryenne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+						<h5>Eryenne<br/>Brinn</h5>
+					</div>
+				</div></a>
                 <a href="#corinne"><div style={{display: 'inline-block', maxWidth: 160}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/corinne.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Corinne<br/>Donovan</h5>
-                    </div>
-                </div></a>
-                <a href="#zach"><div style={{display: 'inline-block', maxWidth: 160}}>
-                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
-                        <Image roundedCircle src={'/images/headshots/zach.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
-                        <h5>Zach<br/>Wiernicki</h5>
-                    </div>
-                </div></a>
-                <a href="#eryenne"><div style={{display: 'inline-block', maxWidth: 160}}>
-                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
-                        <Image roundedCircle src={'/images/headshots/eryenne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
-                        <h5>Eryenne<br/>Brinn</h5>
                     </div>
                 </div></a>
             </div>
