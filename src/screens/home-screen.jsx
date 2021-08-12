@@ -60,9 +60,9 @@ export function HomeScreen(props) {
         }
     }
 
-    const navigate = (route) => {
-        history.push(route);
-    }
+	const navigate = (route, data) => {
+		history.push({pathname: route, state: data});
+	}
 
     return (
         <>

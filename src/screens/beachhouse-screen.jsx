@@ -30,9 +30,9 @@ export function BeachhouseScreen(props) {
         }
     }
 
-    const navigate = (route) => {
-        history.push(route);
-    }
+	const navigate = (route, data) => {
+		history.push({pathname: route, state: data});
+	}
 
     return (
         <ContainerPanel id="beachhouse">
@@ -44,7 +44,7 @@ export function BeachhouseScreen(props) {
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#personaltraining')}>Personal Training</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#athletes')}>Athlete Strength & Conditioning</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#adultclasses')}>Adult Classes</Button><br/>
-                        <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact')}>Contact Us</Button>
+						<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Natick Beach House'})}>Contact Us</Button>
                     </div>
                 </div>
                 <div className="col-md-6" style={{paddingBottom: 64}}>
@@ -93,9 +93,9 @@ export function BeachhouseScreen(props) {
 				</Carousel.Item>
 			</Carousel>
 
-            <div style={{width: '100%', textAlign: 'center'}} className="card">
-                <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="fe160871484b" data-widget-version="1" />
-            </div>
+            {/*<div style={{width: '100%', textAlign: 'center'}} className="card">*/}
+            {/*    <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="fe160871484b" data-widget-version="1" />*/}
+            {/*</div>*/}
         </ContainerPanel>
     );
 };

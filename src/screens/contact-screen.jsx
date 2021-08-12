@@ -1,18 +1,23 @@
 import * as React from 'react';
-import {Form} from "react-bootstrap";
+import {Form, Modal} from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import contactPicture from "../assets/images/IMG_3543.JPG";
 import {ContainerPanel} from "../components/container-panel";
 import {useState} from "react";
 import axios from 'axios';
+import {useLocation} from "react-router";
 
 export function ContactScreen(props) {
+
+	const {state} = useLocation();
+	let { message } = state;
+	if(!message) message = '';
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
-    const [interests, setInterests] = useState('');
+    const [interests, setInterests] = useState(message);
 
     const submit = (event) => {
 		event.stopPropagation();
@@ -26,14 +31,31 @@ export function ContactScreen(props) {
 		axios.post("https://script.google.com/macros/s/AKfycbwPObswAArXCWSenO5UyceoATNCnIwK6HKj2wHTsnJUQUOqbEP58aTFKf1ewoimj9r8/exec", formData)
 		.then(response => {
 			console.log('response', response);
+			handleShow();
 		})
 		.catch(error => {
 			console.error(error);
 		})
     }
 
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+	const handleShow = () => setShow(true);
+
     return (
         <div className="screen">
+			<Modal show={show} onHide={handleClose}>
+				<Modal.Header closeButton>
+					<Modal.Title>Success!</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>Thanks for the response--someone will get back to you shortly.  Hard Work Wins!</Modal.Body>
+				<Modal.Footer>
+					<Button variant="secondary" onClick={handleClose}>
+						Close
+					</Button>
+				</Modal.Footer>
+			</Modal>
             <ContainerPanel>
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>

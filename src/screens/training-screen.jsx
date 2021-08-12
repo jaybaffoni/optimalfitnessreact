@@ -29,9 +29,9 @@ export function TrainingScreen(props) {
         }
     }
 
-    const navigate = (route) => {
-        history.push(route);
-    }
+	const navigate = (route, data) => {
+		history.push({pathname: route, state: data});
+	}
 
     return (
         <>
@@ -44,7 +44,7 @@ export function TrainingScreen(props) {
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/lexington')}>Lexington Performance Center</Button><br/>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/beachhouse')}>Natick Beach House</Button><br/>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/inhome')}>In Home</Button><br/>
-                            <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact')}>Contact Us</Button>
+							<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Personal Training'})}>Contact Us</Button>
                         </div>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
@@ -75,7 +75,7 @@ export function TrainingScreen(props) {
                         <div>
                             <Button variant="light" style={styles.spacing} onClick={() => navigate('/lexington')}>Lexington Performance Center</Button><br/>
                             <Button variant="light" style={styles.spacing} onClick={() => navigate('/beachhouse')}>Natick Beach House</Button><br/>
-                            <Button variant="light" style={styles.spacing} onClick={() => navigate('/contact')}>Contact Us</Button>
+							<Button variant="light" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Athlete Strength & Conditioning'})}>Contact Us</Button>
                         </div>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
@@ -94,7 +94,7 @@ export function TrainingScreen(props) {
                         <h3 className="subtitle-text">Small group training led by certified instructors that are designed to help you build strength, stability and increase your heart rate to get the most out of your workout. Both bootcamp and circuit style strength groups are available depending on your goals.</h3>
                         <div>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/beachhouse')}>Natick Beach House</Button><br/>
-                            <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact')}>Contact Us</Button>
+							<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Adult Classes'})}>Contact Us</Button>
                         </div>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>

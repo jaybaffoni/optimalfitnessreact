@@ -28,8 +28,8 @@ export function LexingtonScreen(props) {
         }
     }
 
-    const navigate = (route) => {
-        history.push(route);
+    const navigate = (route, data) => {
+        history.push({pathname: route, state: data});
     }
 
     return (
@@ -41,7 +41,7 @@ export function LexingtonScreen(props) {
                     <div>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#personaltraining')}>Personal Training</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#athletes')}>Athlete Strength & Conditioning</Button><br/>
-                        <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact')}>Contact Us</Button>
+                        <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Lexington Performance Center'})}>Contact Us</Button>
                     </div>
                 </div>
                 <div className="col-md-6" style={{paddingBottom: 64}}>
@@ -56,6 +56,10 @@ export function LexingtonScreen(props) {
 						className="d-block w-100"
 						src={lex1}
 					/>
+					{/*<Carousel.Caption>*/}
+					{/*	<h3>Slide Title</h3>*/}
+					{/*	<p>Slide Subtitle</p>*/}
+					{/*</Carousel.Caption>*/}
 				</Carousel.Item>
 				<Carousel.Item>
 					<img
@@ -88,9 +92,9 @@ export function LexingtonScreen(props) {
 					/>
 				</Carousel.Item>
 			</Carousel>
-            <div  style={{width: '100%', textAlign: 'center'}} className="card">
-                <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="fe160872484b" data-widget-version="1"/>
-            </div>
+            {/*<div  style={{width: '100%', textAlign: 'center'}} className="card">*/}
+            {/*    <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="fe160872484b" data-widget-version="1"/>*/}
+            {/*</div>*/}
         </ContainerPanel>
     );
 };

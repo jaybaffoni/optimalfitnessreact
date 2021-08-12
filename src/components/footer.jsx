@@ -18,7 +18,10 @@ export function Footer(props) {
             <div className="container">
                 <div style={styles.grid}>
                     <p style={{color: '#ffffff80', marginTop: 4}}>&#169;2021 Optimal Fitness Boston</p>
-					<a href="/sample.docx" download>Sample Form</a>
+					<div>
+						<a href="https://forms.gle/oaX53U4PUR3G3Fst9" style={{marginRight:6}}>Health History Form  &#8226;</a>
+						<a href="https://forms.gle/LvE1t9sRHv73c15w6">Waiver</a>
+					</div>
                     <a href="https://www.instagram.com/optimalfitnessboston/?hl=en"><Instagram className="header-icon" size={24} style={{marginLeft: 8}}/></a>
                     <a href="https://www.facebook.com/optimalfitnessboston"><Facebook className="header-icon" size={24} style={{marginLeft: 8}} /></a>
                     <a href="mailto:optimalfitnessboston@gmail.com?Subject=Hello"><EnvelopeOpen className="header-icon" size={24} style={{marginLeft: 8}} /></a>
