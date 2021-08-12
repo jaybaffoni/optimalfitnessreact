@@ -24,7 +24,7 @@ export function Footer(props) {
 					</div>
                     <a href="https://www.instagram.com/optimalfitnessboston/?hl=en"><Instagram className="header-icon" size={24} style={{marginLeft: 8}}/></a>
                     <a href="https://www.facebook.com/optimalfitnessboston"><Facebook className="header-icon" size={24} style={{marginLeft: 8}} /></a>
-                    <a href="mailto:optimalfitnessboston@gmail.com?Subject=Hello"><EnvelopeOpen className="header-icon" size={24} style={{marginLeft: 8}} /></a>
+                    <a href="mailto:optimalfitnessboston@gmail.com?Subject=Training Inquiry"><EnvelopeOpen className="header-icon" size={24} style={{marginLeft: 8}} /></a>
                 </div>
             </div>
         </div>
