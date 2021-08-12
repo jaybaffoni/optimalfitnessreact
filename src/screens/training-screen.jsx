@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Observer from "@researchgate/react-intersection-observer";
 import personalTraining from '../assets/images/pt1.jpg';
 import athleteClasses from '../assets/images/lexingtonathlete.jpeg';
-import adultClasses from '../assets/images/adultclasses.jpg';
+import adultClasses from '../assets/images/step.jpg';
 import {ContainerPanel} from "../components/container-panel";
 import {config} from "../config";
 

@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import contactPicture from "../assets/images/IMG_3543.JPG";
 import {ContainerPanel} from "../components/container-panel";
 import {useState} from "react";
+import axios from 'axios';
 
 export function ContactScreen(props) {
 
@@ -13,12 +14,22 @@ export function ContactScreen(props) {
     const [phone, setPhone] = useState('');
     const [interests, setInterests] = useState('');
 
-    const submit = () => {
-        console.log(firstName);
-        console.log(lastName);
-        console.log(email);
-        console.log(phone);
-        console.log(interests);
+    const submit = (event) => {
+		event.stopPropagation();
+		let formData = new FormData();
+		formData.append("First Name", firstName);
+		formData.append("Last Name", lastName);
+		formData.append("E-Mail", email);
+		formData.append("Interests", interests);
+		formData.append("Phone", phone);
+		console.log(formData);
+		axios.post("https://script.google.com/macros/s/AKfycbwPObswAArXCWSenO5UyceoATNCnIwK6HKj2wHTsnJUQUOqbEP58aTFKf1ewoimj9r8/exec", formData)
+		.then(response => {
+			console.log('response', response);
+		})
+		.catch(error => {
+			console.error(error);
+		})
     }
 
     return (

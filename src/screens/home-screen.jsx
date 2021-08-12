@@ -6,8 +6,8 @@ import staffPicture from '../assets/images/rondo_rehab.jpg'
 import locationPicture from '../assets/images/gym.JPG';
 import trainingPicture from '../assets/images/sunrise.jpg';
 import personalTraining from '../assets/images/pt1.jpg';
-import athleteClasses from '../assets/images/lexingtonathlete.jpeg';
-import adultClasses from '../assets/images/adultclasses.jpg';
+import athleteClasses from '../assets/images/lexingtonathletetall.jpeg';
+import adultClasses from '../assets/images/step.jpg';
 
 import Button from "react-bootstrap/Button";
 import {ContainerPanel} from "../components/container-panel";

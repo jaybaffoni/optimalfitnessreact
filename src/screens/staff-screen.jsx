@@ -4,47 +4,56 @@ import Button from "react-bootstrap/Button";
 import {config} from "../config";
 
 export function StaffScreen(props) {
+
+	const width = 135;
+
     return (
         <div className="container" style={{marginTop: 24}}>
 
             <div style={{textAlign: 'center', display: 'inline-block'}}>
-                <a href="#bryan"><div style={{display: 'inline-block', maxWidth: 160}}>
+                <a href="#bryan"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/bryan.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Bryan<br/>Doo</h5>
                     </div>
                 </div></a>
-                <a href="#laurie"><div style={{display: 'inline-block', maxWidth: 160}}>
+                <a href="#laurie"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/Laurie.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Laurie<br/>Lamoureux<br/>Borrelli</h5>
                     </div>
                 </div></a>
-				<a href="#zach"><div style={{display: 'inline-block', maxWidth: 160}}>
+				<a href="#zach"><div style={{display: 'inline-block', maxWidth: width}}>
 					<div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
 						<Image roundedCircle src={'/images/headshots/zach.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
 						<h5>Zach<br/>Wiernicki</h5>
 					</div>
 				</div></a>
-                <a href="#amanda"><div style={{display: 'inline-block', maxWidth: 160}}>
+                <a href="#amanda"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/amanda.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Amanda<br/>Carvalho</h5>
                     </div>
                 </div></a>
-                <a href="#jack"><div style={{display: 'inline-block', maxWidth: 160}}>
+                <a href="#jack"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/jack.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Jack<br/>Baldwin</h5>
                     </div>
                 </div></a>
-				<a href="#eryenne"><div style={{display: 'inline-block', maxWidth: 160}}>
+				<a href="#eryenne"><div style={{display: 'inline-block', maxWidth: width}}>
 					<div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
 						<Image roundedCircle src={'/images/headshots/eryenne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
 						<h5>Eryenne<br/>Brinn</h5>
 					</div>
 				</div></a>
-                <a href="#corinne"><div style={{display: 'inline-block', maxWidth: 160}}>
+				<a href="#hannah"><div style={{display: 'inline-block', maxWidth: width}}>
+					<div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+						<Image roundedCircle src={'/images/headshots/Hannah.jpg'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+						<h5>Hannah<br/>Crowley</h5>
+					</div>
+				</div></a>
+                <a href="#corinne"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/corinne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Corinne<br/>Donovan</h5>
@@ -104,6 +113,28 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
+			<div id="zach" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+				<Image roundedCircle src={'/images/headshots/zach.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+					<h1>Zach Wiernicki</h1>
+					<h3>Wellness Specialist</h3>
+					<h5>NASM-CPT, CES and PES
+						<br/>B.S. in Sports and Exercise Science, Messiah College
+					</h5>
+				</div>
+				<div style={{textAlign: 'justify'}}>
+					<p>Zach joined the Optimal Fitness in 2006 and brings more than 15 years of training experience to the team. Before joining Optimal Fitness, he interned with the strength and conditioning coach of the Boston Celtics.
+
+						<br/><br/>As a trainer, Zach specializes in corrective exercise and performance based programming. He also focuses on basketball skill development with athletes and those trying to better their basketball game. In all of his training, whether athlete or general population, Zach brings tremendous enthusiasm, a positive attitude and an eagerness to better the lives of his clients.
+
+						<br/><br/>Attending Messiah College he earned his B.S. in Sports and Exercise Science with a health and fitness concentration and played on the men’s basketball team. He was first team all-league as a power forward and is part of the 1,000-point club.
+
+						<br/><br/>Zach lives in New Hampshire and enjoys being in the great outdoors with his wife and three kids. Hiking, fishing and biking are just a few things you will find him doing any chance he gets. He also is a gentleman’s farmer raising animals and growing his own food at his home.
+					</p>
+				</div>
+			</div>
+
             <div id="amanda" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
                 <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
                 <Image roundedCircle src={'/images/headshots/amanda.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
@@ -147,70 +178,70 @@ export function StaffScreen(props) {
                 </div>
             </div>
 
-            <div id="corinne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/corinne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-                    <h1>Corinne Donovan</h1>
-                    <h3>Group Instructor / Personal Trainer</h3>
-                    <h5>ISSA-CPT
-                        <br/>B.A. in Psychology, University of Massachusetts
-                    </h5>
-                </div>
-                <div style={{textAlign: 'justify'}}>
-                    <p>Corinne has been training and teaching group fitness classes for more than 15 years. As a trainer Corinne loves to push her clients to be their best physically, mentally and emotionally.  She creates individualized programs for each of her clients that best suit their needs so they can see results quickly. She specializes in High Intensity Interval Training (HIIT) and wants her clients to walk away feeling energized and wanting more!
+			<div id="eryenne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+				<Image roundedCircle src={'/images/headshots/eryenne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+					<h1>Eryenne Brinn</h1>
+					<h3>Group Instructor / Personal Trainer</h3>
+					<h5>NASM-CPT; EFTI Pre/Post Natal
+						<br/>B.S. in Sport Management, Ithaca College
+					</h5>
+				</div>
+				<div style={{textAlign: 'justify'}}>
+					<p>Eryenne joined Optimal Fitness in 2018 and brings a diverse background to the team. She is a former public relations and marketing pro turned personal trainer and group fitness coach. Having played sports her entire life including women’s lacrosse at Ithaca College, working in gyms throughout high school and college, and working on her own sports performance with strength coaches along the way, she always had a love and keen interest for the field of fitness. And after working in Corporate America for nearly a decade she decided to take her long-time passion for fitness and meld it with her desire to help others as she transitioned to full-time personal training in 2016.
 
-                        <br/><br/>Corinne graduated from The University of Massachusetts Amherst’s Honor Program, Cum Laude with a B.A. in Psychology. At UMass, she rowed Novice Crew and played intramural soccer. Prior to UMass, she attended Stonehill College her freshman year where she played on the women’s soccer team. While at Stonehill, she was the only freshman on the starting lineup and was named Rookie of the Year. During Corinne’s semester abroad in England she played on the women’s soccer team at The University of Hull.
+						<br/><br/>Eryenne works one-on-one with clients as well as in groups. In all scenarios she works to individualize programs to fit each client to help them be and feel their best. To Eryenne, the people she trains are there for a reason-they are there to better their lives in some shape or form, and she loves the mission of helping and guiding them to live happier and healthier lives while reaching their specified goals.
 
-                        <br/><br/>Corinne is certified through the International Sport Science Association (ISSA) and she received her Master Trainer certification through NY Strength.
+						<br/><br/>Eryenne’s love for working with others has led her to pursue various training certifications, in addition to her National Academy of Sports Medicine - Certified Personal Trainer (NASM-CPT) certification, including kettlebells, pre/post natal, spinning and trigger point. And she plans to continue growing her knowledge base to better serve her clients and help others in the future.
 
-                        <br/><br/>She currently lives in Natick with her husband, two boys and their cat Larry. In her spare time she is cheering on her boys who play hockey, lacrosse, baseball and flag football, pursuing her passion in photography and indulging in her love for interior design.</p>
-                </div>
-            </div>
+						<br/><br/>In her free time, Eryenne enjoys spending time with her friends and family, specifically her two young sons, doing just about anything outside (except when it’s too cold then she opts for a fire inside!), traveling to new places and seeing the world, listening endlessly to podcasts, sipping coffee and smoothies, the Philadelphia Eagles and exercising to feel her best.
+					</p>
+				</div>
+			</div>
 
-            <div id="zach" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/zach.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-                    <h1>Zach Wiernicki</h1>
-                    <h3>Wellness Specialist</h3>
-                    <h5>NASM-CPT, CES and PES
-                        <br/>B.S. in Sports and Exercise Science, Messiah College
-                    </h5>
-                </div>
-                <div style={{textAlign: 'justify'}}>
-                    <p>Zach joined the Optimal Fitness in 2006 and brings more than 15 years of training experience to the team. Before joining Optimal Fitness, he interned with the strength and conditioning coach of the Boston Celtics.
+			<div id="hannah" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+				<Image roundedCircle src={'/images/headshots/Hannah.jpg'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+					<h1>Hannah Crowley</h1>
+					<h3>Personal Trainer</h3>
+					<h5>NASM - CPT, CNC, and CES
+						<br/>B.S. in Biology, Boston College
+					</h5>
+				</div>
+				<div style={{textAlign: 'justify'}}>
+					<p>Hannah joined Optimal Fitness in 2021 as a personal trainer. She is certified as a personal trainer, nutrition coach, and corrective exercise specialist through the National Academy of Sports Medicine (NASM). She  earned a B.S. in Biology at Boston College. She grew up playing soccer, basketball, and lacrosse, but left her identity of an “athlete” behind as she sang in The Bostonians. Nevertheless, she kept her athletic spirit fueled through intramural sports and exercise.
 
-                        <br/><br/>As a trainer, Zach specializes in corrective exercise and performance based programming. He also focuses on basketball skill development with athletes and those trying to better their basketball game. In all of his training, whether athlete or general population, Zach brings tremendous enthusiasm, a positive attitude and an eagerness to better the lives of his clients.
+						<br/><br/>Prior to joining Optimal Fitness, Hannah completed two physical therapy internships, an athletic training internship with the Boston Breakers, as well as a personal training internship with JET Boston where she gained training expertise from various perspectives.
 
-                        <br/><br/>Attending Messiah College he earned his B.S. in Sports and Exercise Science with a health and fitness concentration and played on the men’s basketball team. He was first team all-league as a power forward and is part of the 1,000-point club.
+						<br/><br/>Hannah adds a unique background to the OFIT team having worked as a skincare consultant and store educator for Follain where she taught others about the importance of using nontoxic personal-care products. She also spent six months working as an Au Pair in New Zealand. Returning home sooner than planned due to the pandemic, she spent the next six months renovating and selling a campervan. In her free time you can find her hiking and running around with her dog, Nana.
 
-                        <br/><br/>Zach lives in New Hampshire and enjoys being in the great outdoors with his wife and three kids. Hiking, fishing and biking are just a few things you will find him doing any chance he gets. He also is a gentleman’s farmer raising animals and growing his own food at his home.
-                    </p>
-                </div>
-            </div>
+						<br/><br/>She is excited to be back in Boston and working with Optimal Fitness to share and further nourish her passion for healthy, sustainable living with clients of all backgrounds.
+					</p>
+				</div>
+			</div>
 
-            <div id="eryenne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-                <Image roundedCircle src={'/images/headshots/eryenne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-                    <h1>Eryenne Brinn</h1>
-                    <h3>Group Instructor / Personal Trainer</h3>
-                    <h5>NASM-CPT; EFTI Pre/Post Natal
-                        <br/>B.S. in Sport Management, Ithaca College
-                    </h5>
-                </div>
-                <div style={{textAlign: 'justify'}}>
-                    <p>Eryenne joined Optimal Fitness in 2018 and brings a diverse background to the team. She is a former public relations and marketing pro turned personal trainer and group fitness coach. Having played sports her entire life including women’s lacrosse at Ithaca College, working in gyms throughout high school and college, and working on her own sports performance with strength coaches along the way, she always had a love and keen interest for the field of fitness. And after working in Corporate America for nearly a decade she decided to take her long-time passion for fitness and meld it with her desire to help others as she transitioned to full-time personal training in 2016.
+			<div id="corinne" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+				<Image roundedCircle src={'/images/headshots/corinne.JPG'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+					<h1>Corinne Donovan</h1>
+					<h3>Group Instructor / Personal Trainer</h3>
+					<h5>ISSA-CPT
+						<br/>B.A. in Psychology, University of Massachusetts
+					</h5>
+				</div>
+				<div style={{textAlign: 'justify'}}>
+					<p>Corinne has been training and teaching group fitness classes for more than 15 years. As a trainer Corinne loves to push her clients to be their best physically, mentally and emotionally.  She creates individualized programs for each of her clients that best suit their needs so they can see results quickly. She specializes in High Intensity Interval Training (HIIT) and wants her clients to walk away feeling energized and wanting more!
 
-                        <br/><br/>Eryenne works one-on-one with clients as well as in groups. In all scenarios she works to individualize programs to fit each client to help them be and feel their best. To Eryenne, the people she trains are there for a reason-they are there to better their lives in some shape or form, and she loves the mission of helping and guiding them to live happier and healthier lives while reaching their specified goals.
+						<br/><br/>Corinne graduated from The University of Massachusetts Amherst’s Honor Program, Cum Laude with a B.A. in Psychology. At UMass, she rowed Novice Crew and played intramural soccer. Prior to UMass, she attended Stonehill College her freshman year where she played on the women’s soccer team. While at Stonehill, she was the only freshman on the starting lineup and was named Rookie of the Year. During Corinne’s semester abroad in England she played on the women’s soccer team at The University of Hull.
 
-                        <br/><br/>Eryenne’s love for working with others has led her to pursue various training certifications, in addition to her National Academy of Sports Medicine - Certified Personal Trainer (NASM-CPT) certification, including kettlebells, pre/post natal, spinning and trigger point. And she plans to continue growing her knowledge base to better serve her clients and help others in the future.
+						<br/><br/>Corinne is certified through the International Sport Science Association (ISSA) and she received her Master Trainer certification through NY Strength.
 
-                        <br/><br/>In her free time, Eryenne enjoys spending time with her friends and family, specifically her two young sons, doing just about anything outside (except when it’s too cold then she opts for a fire inside!), traveling to new places and seeing the world, listening endlessly to podcasts, sipping coffee and smoothies, the Philadelphia Eagles and exercising to feel her best.
-                    </p>
-                </div>
-            </div>
+						<br/><br/>She currently lives in Natick with her husband, two boys and their cat Larry. In her spare time she is cheering on her boys who play hockey, lacrosse, baseball and flag football, pursuing her passion in photography and indulging in her love for interior design.</p>
+				</div>
+			</div>
 
         </div>
     );
