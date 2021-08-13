@@ -29,7 +29,8 @@ export function LexingtonScreen(props) {
     }
 
     const navigate = (route, data) => {
-        history.push({pathname: route, state: data});
+    	if(data) history.push({pathname: route, state: data});
+    	else history.push(route);
     }
 
     return (

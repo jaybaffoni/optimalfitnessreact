@@ -8,7 +8,7 @@ const styles = {
     grid: {
         paddingTop: 16,
         display: 'grid',
-        gridTemplateColumns: '1fr 1fr auto auto auto'
+        gridTemplateColumns: '1fr auto auto auto'
     }
 }
 
@@ -17,7 +17,7 @@ export function Footer(props) {
         <div style={{height: 60, backgroundColor: config.primaryColor}}>
             <div className="container">
                 <div style={styles.grid}>
-                    <p style={{color: '#ffffff80', marginTop: 4}}>&#169;2021 Optimal Fitness Boston</p>
+                    {/*<p style={{color: '#ffffff80', marginTop: 4}}>&#169;2021 Optimal Fitness Boston</p>*/}
 					<div>
 						<a href="https://forms.gle/oaX53U4PUR3G3Fst9" style={{marginRight:6}}>Health History Form  &#8226;</a>
 						<a href="https://forms.gle/LvE1t9sRHv73c15w6">Waiver</a>

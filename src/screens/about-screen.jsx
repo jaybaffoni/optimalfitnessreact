@@ -29,7 +29,8 @@ export function AboutScreen(props) {
     }
 
 	const navigate = (route, data) => {
-		history.push({pathname: route, state: data});
+		if(data) history.push({pathname: route, state: data});
+		else history.push(route);
 	}
 
 	const submit = (event) => {

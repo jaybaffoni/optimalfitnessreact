@@ -58,7 +58,7 @@ export function LocationTimeline(props) {
                 icon={<GeoAltFill />}
             >
                 <a className="blue-link" href="/quin">
-                    <h3 className="vertical-timeline-element-title">The 'Quin</h3>
+                    <h3 className="vertical-timeline-element-title">The 'Quin House</h3>
                     <p>Optimal Fitness has partnered with the hottest new social club in Boston - THE 'QUIN HOUSE</p>
                 </a>
             </VerticalTimelineElement>
