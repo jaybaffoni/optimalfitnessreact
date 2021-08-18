@@ -73,7 +73,7 @@ export function AboutScreen(props) {
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>Our Mission</h1>
                         <h3 className="subtitle-text">Every staff member at OFIT has the expertise to customize workouts for each individual client, whether they’re a high school or college athlete, weekend warrior or someone trying to better themselves, and each program is designed and implemented around the individual, their goals and their needs.  HARD WORK WINS!</h3>
-                        <Button variant="dark" onClick={() => navigate('/contact')}>Learn More</Button>
+                        <Button variant="dark" onClick={() => navigate('/contact', {message: 'About Optimal Fitness'})}>Learn More</Button>
                     </div>
                     <div className="col-md-6" style={{marginBottom: 8}}>
                         <Observer onChange={handleIntersection}>
