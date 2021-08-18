@@ -40,7 +40,7 @@ export function TrainingScreen(props) {
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>Personal Training</h1>
-                        <h3 className="subtitle-text">Customized individualized program based off of initial evaluation in order to help your body move more efficiently, to prevent injuries, and to establish a healthier lifestyle.</h3>
+                        <h3 className="subtitle-text">Customized individualized program based on an initial evaluation of each client in order to help your body move more efficiently, to prevent injuries, and to establish a healthier lifestyle.</h3>
                         <div>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/lexington')}>Lexington Performance Center</Button><br/>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/beachhouse')}>Natick Beach House</Button><br/>
@@ -60,7 +60,7 @@ export function TrainingScreen(props) {
                 <div className="row" style={{color: 'white'}}>
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text">Athlete Strength & Conditioning</h1>
-                        <h3 className="subtitle-text">Athlete groups (ages 11-22) are brought through a specific warm up and customized programming, corrective exercises and sports performance exercises based on their goals, sports and evaluations.</h3>
+                        <h3 className="subtitle-text">Athlete groups ages 11-22 are brought through a specific warm-up and customized programming, corrective exercises and sports performance exercises based on their individual goals, sports, and evaluations.</h3>
                         <ul>
                             <li className="location-subtitle" style={styles.bottomSpacing}>Warm up</li>
                             <li className="location-subtitle" style={styles.bottomSpacing}>Flexibility / Mobility /
@@ -91,8 +91,8 @@ export function TrainingScreen(props) {
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>Adult Classes</h1>
-                        <h3 className="subtitle-text">Group-based Core and strength-based programs designed to increase your heart rate and help you get the most out of every workout.</h3>
-                        <h3 className="subtitle-text">Small group training led by certified instructors that are designed to help you build strength, stability and increase your heart rate to get the most out of your workout. Both bootcamp and circuit style strength groups are available depending on your goals.</h3>
+                        <h3 className="subtitle-text">Group-based core and strength-based programs designed to increase your heart rate and help you get the most out of every workout.</h3>
+                        <h3 className="subtitle-text">Small group trainings are led by certified instructors that are designed to help you build strength, stability and increase your heart rate to get the most out of your workout. Both bootcamp and circuit style strength groups are available depending on your goals.</h3>
                         <div>
                             <Button variant="dark" style={styles.spacing} onClick={() => navigate('/beachhouse')}>Natick Beach House</Button><br/>
 							<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Adult Classes'})}>Contact Us</Button>
