@@ -45,7 +45,7 @@ export function InhomeScreen(props) {
                     <h3 className="subtitle-text">Take the travel out of your workout and we will come to you! Either via zoom or in person, your workout will be customized to you and your goals.</h3>
                     <div>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#personaltraining')}>Personal Training</Button><br/>
-						<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'In Home Training'})}>Contact Us</Button>
+						<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {loc: 'In-Home'})}>Contact Us</Button>
                     </div>
                 </div>
             </div>

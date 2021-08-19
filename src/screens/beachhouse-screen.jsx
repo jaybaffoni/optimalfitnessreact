@@ -45,7 +45,7 @@ export function BeachhouseScreen(props) {
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#personaltraining')}>Personal Training</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#athletes')}>Athlete Strength & Conditioning</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#adultclasses')}>Adult Classes</Button><br/>
-						<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Natick Beach House'})}>Contact Us</Button>
+						<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {loc: 'Natick Beach House'})}>Contact Us</Button>
                     </div>
                 </div>
                 <div className="col-md-6" style={{paddingBottom: 64}}>

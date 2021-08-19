@@ -5,28 +5,56 @@ import contactPicture from "../assets/images/IMG_3543.JPG";
 import {ContainerPanel} from "../components/container-panel";
 import {useState} from "react";
 import axios from 'axios';
-import {useLocation} from "react-router";
+import {useLocation} from "react-router-dom";
 
 export function ContactScreen(props) {
 
 	const {state} = useLocation();
-	let { message } = state;
-	if(!message) message = '';
+	console.log('state', state);
+	let message = '';
+	let loc = '';
+	if(state){
+		if(state.message){
+			message = state.message;
+		}
+		if(state.loc){
+			loc = state.loc;
+		}
+	}
 
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
+	const [location, setLocation] = useState(loc);
     const [interests, setInterests] = useState(message);
 
+    const [errors, setErrors] = useState([]);
+
+    const checkValues = () => {
+    	let tempErrors = [];
+    	if(!firstName || firstName == '') tempErrors.push('First Name');
+    	if(!lastName || lastName == '') tempErrors.push('Last Name');
+    	if((!email || email == '') && (!phone || phone == '')) tempErrors.push('Phone or E-Mail');
+    	if(!location || location == '' || location == 'Select Location') tempErrors.push('Location');
+    	setErrors([...tempErrors]);
+    	if(tempErrors.length == 0) return true;
+    	return false;
+	}
+
     const submit = (event) => {
+    	if(!checkValues()) {
+    		setShowError(true);
+    		return;
+		}
 		event.stopPropagation();
 		let formData = new FormData();
 		formData.append("First Name", firstName);
 		formData.append("Last Name", lastName);
 		formData.append("E-Mail", email);
-		formData.append("Interests", interests);
 		formData.append("Phone", phone);
+		formData.append("Location", location);
+		formData.append("Interests", interests);
 		console.log(formData);
 		axios.post("https://script.google.com/macros/s/AKfycbwPObswAArXCWSenO5UyceoATNCnIwK6HKj2wHTsnJUQUOqbEP58aTFKf1ewoimj9r8/exec", formData)
 		.then(response => {
@@ -39,6 +67,7 @@ export function ContactScreen(props) {
     }
 
 	const [show, setShow] = useState(false);
+    const [showError, setShowError] = useState(false);
 
 	const handleClose = () => setShow(false);
 	const handleShow = () => setShow(true);
@@ -52,6 +81,23 @@ export function ContactScreen(props) {
 				<Modal.Body>Thanks for the response--someone will get back to you shortly.  Hard Work Wins!</Modal.Body>
 				<Modal.Footer>
 					<Button variant="secondary" onClick={handleClose}>
+						Close
+					</Button>
+				</Modal.Footer>
+			</Modal>
+			<Modal show={showError} onHide={() => setShowError(false)}>
+				<Modal.Header closeButton>
+					<Modal.Title>Error</Modal.Title>
+				</Modal.Header>
+				<Modal.Body>Please provide values for the following fields:
+					{errors.map((error, index) => {
+						return (
+							<li key={index}>{error}</li>
+						)
+					})}
+				</Modal.Body>
+				<Modal.Footer>
+					<Button variant="secondary" onClick={() => setShowError(false)}>
 						Close
 					</Button>
 				</Modal.Footer>
@@ -82,7 +128,19 @@ export function ContactScreen(props) {
                                 <Form.Control placeholder="Phone Number" value={phone} onChange={(event) => setPhone(event.target.value)} />
                             </Form.Group>
 
-                            <Form.Group controlId="formGridPhone">
+							<Form.Group controlId="formGridLocation">
+								<Form.Label>Location</Form.Label>
+								<Form.Control as="select" value={location} onChange={(event) => setLocation(event.target.value)}>
+									<option value="">Select Location</option>
+									<option value="Lexington Performance Center">Lexington Performance Center</option>
+									<option value="Natick Beach House">Natick Beach House</option>
+									<option value="Corporate">Corporate</option>
+									<option value="In-Home">In-Home</option>
+									<option value="The 'Quin House">The 'Quin House</option>
+								</Form.Control>
+							</Form.Group>
+
+                            <Form.Group controlId="formGridInterests">
                                 <Form.Label>Your Interests</Form.Label>
                                 <Form.Control as="textarea" rows={3} value={interests} onChange={(event) => setInterests(event.target.value)} />
                             </Form.Group>

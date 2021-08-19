@@ -42,7 +42,7 @@ export function LexingtonScreen(props) {
                     <div>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#personaltraining')}>Personal Training</Button><br/>
                         <Button variant="dark" style={styles.spacing} onClick={() => navigate('/training#athletes')}>Athlete Strength & Conditioning</Button><br/>
-                        <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Lexington Performance Center'})}>Contact Us</Button>
+                        <Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {loc: 'Lexington Performance Center'})}>Contact Us</Button>
                     </div>
                 </div>
                 <div className="col-md-6" style={{paddingBottom: 64}}>

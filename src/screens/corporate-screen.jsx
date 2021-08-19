@@ -36,7 +36,7 @@ export function CorporateScreen(props) {
 				<div className="col-md-6">
 					<h1 className="title-text" style={{color: 'black'}}>Corporate</h1>
 					<h3 className="subtitle-text">We work with businesses to help them encourage employees to healthier lifestyle choices. Research shows that corporate wellness can reduce absenteeism, improve productivity, and grow positive morale. Let our team help yours! Reach out if you are interested in having the Optimal Fitness team run your fitness center, host a special group event, or for general ideas on how to help your team to a healthy lifestyle.</h3>
-					<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {message: 'Corporate Wellness'})}>Contact Us</Button>
+					<Button variant="dark" style={styles.spacing} onClick={() => navigate('/contact', {loc: 'Corporate'})}>Contact Us</Button>
 				</div>
 				<div className="col-md-6">
 					<Carousel style={{marginBottom: 64}}>
