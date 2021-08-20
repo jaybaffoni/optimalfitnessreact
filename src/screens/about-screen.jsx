@@ -90,7 +90,7 @@ export function AboutScreen(props) {
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>
                         <h1 className="title-text" style={{color: 'black'}}>Newsletter</h1>
-                        <h3 className="subtitle-text">View the latest <a href="./assets/newsletters/summer2021.pdf">newsletter</a>, and subscribe to our emailed version below!</h3>
+                        <h3 className="subtitle-text">View the latest <a download href="summer2021.pdf">newsletter</a>, and subscribe to our emailed version below!</h3>
                         <Form>
 							<Form.Group controlId="formGridFirstName">
 								<Form.Label>First Name</Form.Label>
