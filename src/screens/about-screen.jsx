@@ -108,9 +108,6 @@ export function AboutScreen(props) {
 							<li className="location-subtitle" style={styles.bottomSpacing}>Strong communication skills to build relationships with both clients and coworkers</li>
 							<li className="location-subtitle" style={styles.bottomSpacing}>Work proficiently with Google drive and Mindbody for all administrative work within the company</li>
 						</ul>
-						<div style={{width: '100%', textAlign: 'center', marginBottom: 16}}>
-							<a href="mailto:laurie@optimalfotnessboston.com?Subject=Personal Trainer Application"><Button variant="light">Apply Now</Button></a>
-						</div>
 					</div>
 					<div className="col-md-6" style={{marginBottom: 8}}>
 						<h4>Strength & Conditioning Coach</h4>
@@ -121,11 +118,13 @@ export function AboutScreen(props) {
 							<li className="location-subtitle" style={styles.bottomSpacing}>Strong communication skills to build relationships with both clients and coworkers</li>
 							<li className="location-subtitle" style={styles.bottomSpacing}>Work proficiently with Google drive and Mindbody for all administrative work within the company</li>
 						</ul>
-						<div style={{width: '100%', textAlign: 'center'}}>
-							<a href="mailto:laurie@optimalfotnessboston.com?Subject=Strength and Conditioning Coach Application"><Button variant="light">Apply Now</Button></a>
-						</div>
 					</div>
 				</div>
+				<div style={{width: '100%', textAlign: 'center', marginBottom: 16}}>
+					<h3 style={{color: 'white'}}>Please attach a cover letter and resume with your inquiry!</h3>
+					<a href="mailto:laurie@optimalfitnessboston.com?Subject=Employment Application"><Button variant="light">Apply Now</Button></a>
+				</div>
+
 			</ContainerPanel>
             <ContainerPanel>
                 <div className="row">
