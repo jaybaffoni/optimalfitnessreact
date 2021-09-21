@@ -11,8 +11,17 @@ import {Col, Form, Modal} from "react-bootstrap";
 import {useHistory} from "react-router";
 import {useState} from "react";
 import axios from "axios";
+import {config} from "../config";
+import athleteClasses from "../assets/images/lexingtonathlete.jpeg";
+import {EnvelopeOpen} from "react-bootstrap-icons";
 
 export function AboutScreen(props) {
+
+	const styles = {
+		bottomSpacing: {
+			marginBottom: 8
+		}
+	}
 
 	const [firstName, setFirstName] = useState('');
 	const [lastName, setLastName] = useState('');
@@ -86,6 +95,38 @@ export function AboutScreen(props) {
                 <h1 className="title-text" style={{width: '100%', textAlign: 'center'}}>Testimonials</h1>
                 <TestimonialTimeline />
             </FullPanel>
+			<ContainerPanel id="employment" color={config.primaryColor}>
+				<h1 className="title-text" style={{color: 'white'}}>Employment Opportunities</h1>
+				<div className="row" style={{color: 'white'}}>
+					<div className="col-md-6" style={{marginBottom: 8}}>
+						<h4>Personal Trainer</h4>
+						<ul>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Assist, monitor, and instruct clients and ensure safe and effective use of equipment</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Motivate clients to get results through goal setting, follow-up, and re-assessments</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Create exercise routines to be new and enjoyable for clients</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Help clean and maintain gym spaces</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Strong communication skills to build relationships with both clients and coworkers</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Work proficiently with Google drive and Mindbody for all administrative work within the company</li>
+						</ul>
+						<div style={{width: '100%', textAlign: 'center', marginBottom: 16}}>
+							<a href="mailto:laurie@optimalfotnessboston.com?Subject=Personal Trainer Application"><Button variant="light">Apply Now</Button></a>
+						</div>
+					</div>
+					<div className="col-md-6" style={{marginBottom: 8}}>
+						<h4>Strength & Conditioning Coach</h4>
+						<ul>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Establish and maintain a strength and conditioning program for privates, small groups, and large groups, with the three major goals of improving athletic performance, reducing athletic injuries, and teaching lifelong fitness and movement skills</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Maintain positive energy</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Help clean and maintain gym spaces</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Strong communication skills to build relationships with both clients and coworkers</li>
+							<li className="location-subtitle" style={styles.bottomSpacing}>Work proficiently with Google drive and Mindbody for all administrative work within the company</li>
+						</ul>
+						<div style={{width: '100%', textAlign: 'center'}}>
+							<a href="mailto:laurie@optimalfotnessboston.com?Subject=Strength and Conditioning Coach Application"><Button variant="light">Apply Now</Button></a>
+						</div>
+					</div>
+				</div>
+			</ContainerPanel>
             <ContainerPanel>
                 <div className="row">
                     <div className="col-md-6" style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginBottom: 8}}>

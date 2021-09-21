@@ -14,6 +14,7 @@ import {TrainingScreen} from "./screens/training-screen";
 import {ContactScreen} from "./screens/contact-screen";
 import {Footer} from "./components/footer";
 import {useEffect} from "react";
+import {Snackbar} from "./components/snackbar";
 
 function App() {
 
@@ -76,6 +77,7 @@ function App() {
             </Route>
         </Switch>
         <Footer />
+        <Snackbar />
     </div>
   );
 }
