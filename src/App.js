@@ -77,7 +77,7 @@ function App() {
             </Route>
         </Switch>
         <Footer />
-        <Snackbar />
+        {/*<Snackbar />*/}
     </div>
   );
 }
