@@ -5,7 +5,7 @@ import {config} from "../config";
 
 export function StaffScreen(props) {
 
-	const width = 135;
+	const width = 120;
 
     return (
         <div className="container" style={{marginTop: 24}}>
@@ -57,6 +57,12 @@ export function StaffScreen(props) {
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/corinne.JPG'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
                         <h5>Corinne<br/>Donovan</h5>
+                    </div>
+                </div></a>
+                <a href="#frank"><div style={{display: 'inline-block', maxWidth: width}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/frank c.png'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Frank<br/>Cypriano</h5>
                     </div>
                 </div></a>
             </div>
@@ -240,6 +246,27 @@ export function StaffScreen(props) {
 						<br/><br/>Corinne is certified through the International Sport Science Association (ISSA) and she received her Master Trainer certification through NY Strength.
 
 						<br/><br/>She currently lives in Natick with her husband, two boys and their cat Larry. In her spare time she is cheering on her boys who play hockey, lacrosse, baseball and flag football, pursuing her passion in photography and indulging in her love for interior design.</p>
+				</div>
+			</div>
+
+            <div id="frank" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+				<Image roundedCircle src={'/images/headshots/frank c.png'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+					<h1>Frank Cypriano</h1>
+					<h3>Personal Trainer</h3>
+					<h5>NASM-CPT
+						<br/>B.A. in Criminal Justice, Saint Anselm College
+					</h5>
+				</div>
+				<div style={{textAlign: 'justify'}}>
+					<p>Frank Cypriano joined Optimal Fitness in 2021 as a personal trainer. He is a certified personal trainer through the National Academy of Sports Medicine (NASM) and was previously certified through the International Sports Science Association (ISSA). Frank grew up playing soccer and basketball. He started coaching his younger brother’s soccer team after college and stuck with it having been a youth + high school soccer coach for almost a decade. Frank found his way to personal training after undergoing his own weight loss transformation at the start of 2018, wanting to help others achieve their goals as well.
+
+						<br/><br/>Prior to Optimal Fitness Frank has worked at gyms in the Boston area, as well as hosting 1-on-1 sessions in his driveway during the early days of the pandemic before gyms opened back up.  That resourcefulness has landed him a wide array of previous jobs building his unique background; from the rental car business, to TV production for ESPN in Bristol, CT, to working as an on-site interpreter for Portuguese and Spanish speakers, Frank is a jack-of-all-trades.
+
+						<br/><br/>Which leads Frank to his openness in training styles and his interests for further continuing his education. From doing explosive drills with athletes, working the barbell to grow some lean mass or showing you bodyweight exercises you can get done at home or in the office, Frank wants to find what works best for you to help achieve your fitness goals.
+
+						<br/><br/>In his free time Frank enjoys going on adventures with his miniature-husky, Tornado. As a soccer junkie he lives and dies with the Brazilian soccer club, Flamengo and the Brazilian National Team. The same applies for the Boston Celtics. Frank is currently working towards earning soccer coaching licenses that will help him with his ultimate goal of coaching soccer at the collegiate or professional level.</p>
 				</div>
 			</div>
 
