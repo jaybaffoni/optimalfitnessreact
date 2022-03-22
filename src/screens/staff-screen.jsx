@@ -293,9 +293,7 @@ export function StaffScreen(props) {
 
                         <br/><br/>When not at the gym she also loves being outside, strong coffee, spending time with family and friends, traveling, reading and the occasional art project. 
 
-                        <br/><br/>Cleo is certified as a personal trainer through the National Academy of Sports Medicine (NASM). 
-
-                        <br/><br/>In her free time, Laurie loves the outdoors, playing soccer, fantasy books, and quality time with family and friends. She is constantly looking to better herself and believes that learning is always an open door.</p>
+                        <br/><br/>Cleo is certified as a personal trainer through the National Academy of Sports Medicine (NASM). </p>
                 </div>
             </div>
         </div>
