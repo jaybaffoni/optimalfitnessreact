@@ -71,6 +71,12 @@ export function StaffScreen(props) {
                         <h5>Biko<br/>Kponou</h5>
                     </div>
                 </div></a>
+                <a href="#cleo"><div style={{display: 'inline-block', maxWidth: width}}>
+                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
+                        <Image roundedCircle src={'/images/headshots/cleo.png'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
+                        <h5>Cleo<br/>Barker</h5>
+                    </div>
+                </div></a>
             </div>
 
 
@@ -275,6 +281,7 @@ export function StaffScreen(props) {
 						<br/><br/>In his free time Frank enjoys going on adventures with his miniature-husky, Tornado. As a soccer junkie he lives and dies with the Brazilian soccer club, Flamengo and the Brazilian National Team. The same applies for the Boston Celtics. Frank is currently working towards earning soccer coaching licenses that will help him with his ultimate goal of coaching soccer at the collegiate or professional level.</p>
 				</div>
 			</div>
+            
             <div id="biko" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
 				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
 				<Image roundedCircle src={'/images/headshots/biko.png'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
@@ -294,6 +301,29 @@ export function StaffScreen(props) {
 
 				</div>
 			</div>
+            
+            <div id="cleo" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
+                <div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
+                <Image roundedCircle src={'/images/headshots/cleo.png'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
+                <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
+                    <h1>Cleo Barker</h1>
+                    <h3> </h3>
+                    <h5>NASM-CPT
+                        <br/>B.A. in International Affairs and Journalism, University of Maine
+                    </h5>
+                </div>
+                <div style={{textAlign: 'justify'}}>
+                    <p>Cleo joined the Optimal Fitness team in 2022 as a fitness attendant. Cleo’s interest in fitness took off in the last few years after she realized how much of an impact it has on all aspects of wellness and quality of life.
+
+                        <br/><br/>At the beginning of 2022 when she decided to move from Maine to the Boston area, she also made the jump into fitness as a career. She hopes to continue to learn as much as possible about the field and use that knowledge to help other people discover the power of exercise in many different forms to change their lives for the better. 
+
+                        <br/><br/>When not at the gym she also loves being outside, strong coffee, spending time with family and friends, traveling, reading and the occasional art project. 
+
+                        <br/><br/>Cleo is certified as a personal trainer through the National Academy of Sports Medicine (NASM). 
+
+                        <br/><br/>In her free time, Laurie loves the outdoors, playing soccer, fantasy books, and quality time with family and friends. She is constantly looking to better herself and believes that learning is always an open door.</p>
+                </div>
+            </div>
         </div>
     );
 };
