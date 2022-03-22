@@ -5,7 +5,7 @@ import {config} from "../config";
 
 export function StaffScreen(props) {
 
-	const width = 135;
+	const width = 110;
 
     return (
         <div className="container" style={{marginTop: 24}}>
