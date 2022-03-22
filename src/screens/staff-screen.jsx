@@ -307,7 +307,7 @@ export function StaffScreen(props) {
                 <Image roundedCircle src={'/images/headshots/cleo.png'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
                 <div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
                     <h1>Cleo Barker</h1>
-                    <h3> </h3>
+                    <h3>Fitness Attendant</h3>
                     <h5>NASM-CPT
                         <br/>B.A. in International Affairs and Journalism, University of Maine
                     </h5>
