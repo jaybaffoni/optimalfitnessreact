@@ -65,12 +65,6 @@ export function StaffScreen(props) {
                         <h5>Frank<br/>Cypriano</h5>
                     </div>
                 </div></a>
-                <a href="#biko"><div style={{display: 'inline-block', maxWidth: width}}>
-                    <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
-                        <Image roundedCircle src={'/images/headshots/biko.png'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
-                        <h5>Biko<br/>Kponou</h5>
-                    </div>
-                </div></a>
                 <a href="#cleo"><div style={{display: 'inline-block', maxWidth: width}}>
                     <div style={{display: 'grid', gridTemplateRows: 'auto 1fr'}}>
                         <Image roundedCircle src={'/images/headshots/cleo.png'} className={'profile-header'} style={{objectFit: 'cover', margin: 4}}/>
@@ -279,26 +273,6 @@ export function StaffScreen(props) {
 						<br/><br/>Which leads Frank to his openness in training styles and his interests for further continuing his education. From doing explosive drills with athletes, working the barbell to grow some lean mass or showing you bodyweight exercises you can get done at home or in the office, Frank wants to find what works best for you to help achieve your fitness goals.
 
 						<br/><br/>In his free time Frank enjoys going on adventures with his miniature-husky, Tornado. As a soccer junkie he lives and dies with the Brazilian soccer club, Flamengo and the Brazilian National Team. The same applies for the Boston Celtics. Frank is currently working towards earning soccer coaching licenses that will help him with his ultimate goal of coaching soccer at the collegiate or professional level.</p>
-				</div>
-			</div>
-            
-            <div id="biko" className="card" style={{padding: 24, textAlign: 'center', position: 'relative'}}>
-				<div style={{position: 'absolute', top: 0, left: 0, right: 0, height: 200, backgroundColor: config.primaryColor}}/>
-				<Image roundedCircle src={'/images/headshots/biko.png'} style={{width: 200, height: 200, objectFit: 'cover', marginBottom: 8, marginLeft: 'auto', marginRight: 'auto', border: 'solid 5px white', zIndex: 10, marginTop: 75}}/>
-				<div style={{width: '100%', marginLeft: 'auto', marginRight: 'auto', marginBottom: 24}}>
-					<h1>Biko Kponou</h1>
-					<h3>Personal Trainer</h3>
-					<h5>NASM CPT
-						<br/>W.I.T.S. Personal Training Certification, Mass Bay Community College
-					</h5>
-				</div>
-				<div style={{textAlign: 'justify'}}>
-					<p>Biko joined Optimal Fitness in 2021 as a personal trainer and brings more than 7 years of training experience working with clients from all different backgrounds. Biko is certified as a personal trainer by the National Academy of Sports Medicine (NASM). He has also completed certifications specializing in pilates, TRX training, and training older adults. Biko played sports throughout his life, but decided to pursue a career in training when he became frustrated in his recovery from a back injury he sustained in a high school football game. After unsuccessful efforts to address his pain with medical treatment, Biko has found that movement is the key to his health and works with clients to similarly address pain management and injury prevention through holistic exercise.
-
-						<br/><br/>Prior to joining Optimal Fitness, Biko worked at other elite clubs in the Metrowest area. He has experience with private one-on-one training, as well as group/class training and couples training. He prefers the individualized attention that he can provide to his clients with private training, and strives to develop a rapport and trust between himself and his clients. Biko focuses on functional fitness, or exercise that supports your health in your daily life. This includes exercise relating to postural alignment, balance, spatial awareness, and resistance training. Don’t let the name “functional fitness” fool you, Biko challenges his clients with exercises that deceptively appear easier than they are. Biko’s clients commonly tell him, “You’re working muscles I didn’t even know I had!” 
-
-						<br/><br/>Biko is a positive person that sees opportunity in every challenge. Outside of work he enjoys good food, music, and making art. His family is very important to him and he is constantly providing them with exercises to sustain their health as well. Helping others achieve their fitness goals and improve their health motivates Biko everyday, and he is excited to continue that mission at Optimal Fitness.</p>
-
 				</div>
 			</div>
             
