@@ -165,20 +165,20 @@ export const staff = [
         ],
     },
     {
-        id: 'cleo',
-        headshot: '/images/headshots/cleo.png',
-        name: 'Cleo Barker',
-        nameList: ['Cleo', 'Barker'],
+        id: 'tina',
+        headshot: '/images/headshots/tina3.jpg',
+        name: 'Tina Duong',
+        nameList: ['Tina', 'Duong'],
         title: 'Fitness Attendant',
-        certification: 'NASM-CPT',
+        certification: '',
         qualificationList: [
-            'B.A. in International Affairs and Journalism, University of Maine'
+            'B.S. in Exercise Science, Salem State University'
         ],
         paragraphList:[
-            'Cleo joined the Optimal Fitness team in 2022 as a fitness attendant. Cleo’s interest in fitness took off in the last few years after she realized how much of an impact it has on all aspects of wellness and quality of life.',
-            'At the beginning of 2022 when she decided to move from Maine to the Boston area, she also made the jump into fitness as a career. She hopes to continue to learn as much as possible about the field and use that knowledge to help other people discover the power of exercise in many different forms to change their lives for the better.',
-            'When not at the gym she also loves being outside, strong coffee, spending time with family and friends, traveling, reading and the occasional art project.',
-            'Cleo is certified as a personal trainer through the National Academy of Sports Medicine (NASM).'
+            'Tina joined Optimal Fitness as hybrid Concierge and Fitness Attendant. Before joining Optimal Fitness, she completed her last year as a senior at Salem State University. In her final semester she interned at Supportive Living, Inc where she helped create and administered physical fitness programs to acquired brain injury (ABI) survivors.',
+            'Post graduation, one of her goals is to become a certified personal trainer. Her interest in fitness came from her family background where her dad suffered from a stroke which resulted in him losing the ability to walk and having to rely on adaptive equipment to complete activities of daily living. By watching and helping her dad through his rehabilitation journey, she developed an interest and appreciation for fitness, especially through a rehabilitative lens.',
+            'She is excited to become a CPT and to learn from other Optimal Fitness trainers. Through completion of the NASM CPT course and by shadowing others, she hopes to expand her knowledge and use it to make an impact in people’s lives.',
+            'In her free time, Tina enjoys spending time with her family and friends, trying new restaurants and getting coffee or bubble tea. She loves to read and has started a little book club with her friends with the goal in mind to read at least 10 books this year.'
         ],
     },
 ]
